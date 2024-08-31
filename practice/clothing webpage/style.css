@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+/* html,body{
+    font-size: 1.2rem;
+} */
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.menu-bar{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+
+.menu-left{
+    display: flex;
+}
+
+.menu-left ul{
+    display: flex;
+    gap: 4rem;
+    
+}
+
+.menu-center ul {
+    display: flex;
+    
+    gap: 2rem;
+}
+.menu-right{
+    display: flex;
+    gap: 2rem;
+}
+
+.menu-right span{
+    font-size: 1.25rem;
+    font-weight:700;
+}
+
+.img-section{
+    background-image: url(./images/interior-background-modern-men-clothing-260nw-1207760095.webp);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
